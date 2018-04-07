@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1501A7D820785A47001B23B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1501A7D720785A47001B23B5 /* AppDelegate.swift */; };
+		1501A7DA20785A47001B23B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1501A7D920785A47001B23B5 /* ViewController.swift */; };
+		1501A7DD20785A47001B23B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1501A7DB20785A47001B23B5 /* Main.storyboard */; };
+		1501A7DF20785A47001B23B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1501A7DE20785A47001B23B5 /* Assets.xcassets */; };
+		1501A7E220785A47001B23B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1501A7E020785A47001B23B5 /* LaunchScreen.storyboard */; };
+		1501A7ED20785A47001B23B5 /* MYPaddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1501A7EC20785A47001B23B5 /* MYPaddleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1501A7E920785A47001B23B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1501A7CC20785A47001B23B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1501A7D320785A47001B23B5;
+			remoteInfo = MYPaddle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1501A7D420785A47001B23B5 /* MYPaddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYPaddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1501A7D720785A47001B23B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1501A7D920785A47001B23B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1501A7DC20785A47001B23B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1501A7DE20785A47001B23B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1501A7E120785A47001B23B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1501A7E320785A47001B23B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1501A7E820785A47001B23B5 /* MYPaddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYPaddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1501A7EC20785A47001B23B5 /* MYPaddleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYPaddleTests.swift; sourceTree = "<group>"; };
+		1501A7EE20785A47001B23B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1501A7D120785A47001B23B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1501A7E520785A47001B23B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1501A7CB20785A47001B23B5 = {
+			isa = PBXGroup;
+			children = (
+				1501A7D620785A47001B23B5 /* MYPaddle */,
+				1501A7EB20785A47001B23B5 /* MYPaddleTests */,
+				1501A7D520785A47001B23B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1501A7D520785A47001B23B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1501A7D420785A47001B23B5 /* MYPaddle.app */,
+				1501A7E820785A47001B23B5 /* MYPaddleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1501A7D620785A47001B23B5 /* MYPaddle */ = {
+			isa = PBXGroup;
+			children = (
+				1501A7D720785A47001B23B5 /* AppDelegate.swift */,
+				1501A7D920785A47001B23B5 /* ViewController.swift */,
+				1501A7DB20785A47001B23B5 /* Main.storyboard */,
+				1501A7DE20785A47001B23B5 /* Assets.xcassets */,
+				1501A7E020785A47001B23B5 /* LaunchScreen.storyboard */,
+				1501A7E320785A47001B23B5 /* Info.plist */,
+			);
+			path = MYPaddle;
+			sourceTree = "<group>";
+		};
+		1501A7EB20785A47001B23B5 /* MYPaddleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1501A7EC20785A47001B23B5 /* MYPaddleTests.swift */,
+				1501A7EE20785A47001B23B5 /* Info.plist */,
+			);
+			path = MYPaddleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1501A7D320785A47001B23B5 /* MYPaddle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1501A7F120785A47001B23B5 /* Build configuration list for PBXNativeTarget "MYPaddle" */;
+			buildPhases = (
+				1501A7D020785A47001B23B5 /* Sources */,
+				1501A7D120785A47001B23B5 /* Frameworks */,
+				1501A7D220785A47001B23B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYPaddle;
+			productName = MYPaddle;
+			productReference = 1501A7D420785A47001B23B5 /* MYPaddle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1501A7E720785A47001B23B5 /* MYPaddleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1501A7F420785A47001B23B5 /* Build configuration list for PBXNativeTarget "MYPaddleTests" */;
+			buildPhases = (
+				1501A7E420785A47001B23B5 /* Sources */,
+				1501A7E520785A47001B23B5 /* Frameworks */,
+				1501A7E620785A47001B23B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1501A7EA20785A47001B23B5 /* PBXTargetDependency */,
+			);
+			name = MYPaddleTests;
+			productName = MYPaddleTests;
+			productReference = 1501A7E820785A47001B23B5 /* MYPaddleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1501A7CC20785A47001B23B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Katrice WilliamsDredden";
+				TargetAttributes = {
+					1501A7D320785A47001B23B5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1501A7E720785A47001B23B5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1501A7D320785A47001B23B5;
+					};
+				};
+			};
+			buildConfigurationList = 1501A7CF20785A47001B23B5 /* Build configuration list for PBXProject "MYPaddle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1501A7CB20785A47001B23B5;
+			productRefGroup = 1501A7D520785A47001B23B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1501A7D320785A47001B23B5 /* MYPaddle */,
+				1501A7E720785A47001B23B5 /* MYPaddleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1501A7D220785A47001B23B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1501A7E220785A47001B23B5 /* LaunchScreen.storyboard in Resources */,
+				1501A7DF20785A47001B23B5 /* Assets.xcassets in Resources */,
+				1501A7DD20785A47001B23B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1501A7E620785A47001B23B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1501A7D020785A47001B23B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1501A7DA20785A47001B23B5 /* ViewController.swift in Sources */,
+				1501A7D820785A47001B23B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1501A7E420785A47001B23B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1501A7ED20785A47001B23B5 /* MYPaddleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1501A7EA20785A47001B23B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1501A7D320785A47001B23B5 /* MYPaddle */;
+			targetProxy = 1501A7E920785A47001B23B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1501A7DB20785A47001B23B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1501A7DC20785A47001B23B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1501A7E020785A47001B23B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1501A7E120785A47001B23B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1501A7EF20785A47001B23B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1501A7F020785A47001B23B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1501A7F220785A47001B23B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MYPaddle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mypaddle.MYPaddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1501A7F320785A47001B23B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MYPaddle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mypaddle.MYPaddle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1501A7F520785A47001B23B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MYPaddleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mypaddle.MYPaddleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYPaddle.app/MYPaddle";
+			};
+			name = Debug;
+		};
+		1501A7F620785A47001B23B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MYPaddleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.mypaddle.MYPaddleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYPaddle.app/MYPaddle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1501A7CF20785A47001B23B5 /* Build configuration list for PBXProject "MYPaddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1501A7EF20785A47001B23B5 /* Debug */,
+				1501A7F020785A47001B23B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1501A7F120785A47001B23B5 /* Build configuration list for PBXNativeTarget "MYPaddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1501A7F220785A47001B23B5 /* Debug */,
+				1501A7F320785A47001B23B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1501A7F420785A47001B23B5 /* Build configuration list for PBXNativeTarget "MYPaddleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1501A7F520785A47001B23B5 /* Debug */,
+				1501A7F620785A47001B23B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1501A7CC20785A47001B23B5 /* Project object */;
+}
