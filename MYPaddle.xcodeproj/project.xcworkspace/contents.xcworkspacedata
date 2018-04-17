@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MYPaddle.xcodeproj">
+      location = "group:../MYPaddle/UIButton.swift">
+   </FileRef>
+   <FileRef
+      location = "group:BEBAS.ttf">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
