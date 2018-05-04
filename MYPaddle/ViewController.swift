@@ -9,6 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    // TODO: Add button field with method ???
     
     
+   
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+       
+
+    }
+    
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        Warni
+//    }
 }

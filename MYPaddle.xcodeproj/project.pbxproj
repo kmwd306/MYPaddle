@@ -12,9 +12,8 @@
 		1501A7DF20785A47001B23B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1501A7DE20785A47001B23B5 /* Assets.xcassets */; };
 		1501A7E220785A47001B23B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1501A7E020785A47001B23B5 /* LaunchScreen.storyboard */; };
 		1501A7ED20785A47001B23B5 /* MYPaddleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1501A7EC20785A47001B23B5 /* MYPaddleTests.swift */; };
+		1503EE24209BC20400F1D537 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1503EE23209BC20400F1D537 /* SwipingController.swift */; };
 		156C59AE208524F600028DC5 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156C59AD208524F500028DC5 /* UIButton.swift */; };
-		1584F3FE2086781900F8BDAD /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1584F3FD2086781900F8BDAD /* Button.swift */; };
-		15A74718207CED5200B4DFB7 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A74717207CED5200B4DFB7 /* RoundButton.swift */; };
 		15A7471E2082591000B4DFB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A7471D2082591000B4DFB7 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +37,8 @@
 		1501A7E820785A47001B23B5 /* MYPaddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYPaddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1501A7EC20785A47001B23B5 /* MYPaddleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYPaddleTests.swift; sourceTree = "<group>"; };
 		1501A7EE20785A47001B23B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1503EE23209BC20400F1D537 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		156C59AD208524F500028DC5 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = MYPaddle/UIButton.swift; sourceTree = "<group>"; };
-		1584F3FD2086781900F8BDAD /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		15A74717207CED5200B4DFB7 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = SOURCE_ROOT; };
 		15A7471D2082591000B4DFB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,13 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				1501A7D720785A47001B23B5 /* AppDelegate.swift */,
-				15A74717207CED5200B4DFB7 /* RoundButton.swift */,
-				1584F3FD2086781900F8BDAD /* Button.swift */,
 				1501A7DB20785A47001B23B5 /* Main.storyboard */,
 				1501A7DE20785A47001B23B5 /* Assets.xcassets */,
 				1501A7E020785A47001B23B5 /* LaunchScreen.storyboard */,
 				1501A7E320785A47001B23B5 /* Info.plist */,
 				15A7471D2082591000B4DFB7 /* ViewController.swift */,
+				1503EE23209BC20400F1D537 /* SwipingController.swift */,
 			);
 			path = MYPaddle;
 			sourceTree = "<group>";
@@ -208,11 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1584F3FE2086781900F8BDAD /* Button.swift in Sources */,
 				15A7471E2082591000B4DFB7 /* ViewController.swift in Sources */,
-				15A74718207CED5200B4DFB7 /* RoundButton.swift in Sources */,
 				1501A7D820785A47001B23B5 /* AppDelegate.swift in Sources */,
 				156C59AE208524F600028DC5 /* UIButton.swift in Sources */,
+				1503EE24209BC20400F1D537 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
